@@ -1,0 +1,197 @@
+body{
+  text-align:center;
+}
+
+
+#title{
+  background-color: #3E065F;
+  color:#fff;
+  text-align: left;
+
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+}
+
+p{
+  font-size: 1.1rem;
+  color: #8f8f8f;
+}
+.title{
+  padding:70px 30px 70px 0px;
+}
+
+.title-heading {
+  font-size: 5rem;
+  line-height: 1.5;
+  /* padding:100px; */
+}
+
+.container-fluid{
+  padding: 4.5% 10% 5.5%;
+}
+
+/* Navigation Panel */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+ .nav-item {
+   font-weight: normal;
+   padding: 0 16px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image1{
+  width: 100%;
+  right: 25%;
+  padding: 15px;
+  text-align: center;
+
+}
+
+.title-icon1{
+  width: 10%;
+  position:relative;
+  right:600px;
+  bottom:50px;
+}
+
+/* address */
+#address{
+  padding:6%;
+}
+.address-col1{
+  text-align: right;
+}
+ .address-image{
+   width: 95%;
+ }
+
+.address-info{
+  font-size: 1.5rem;
+
+  text-align: left;
+}
+.hospital-info{
+  vertical-align: center;
+  padding: 30px;
+}
+.address-heading{
+  font-size: 3.5rem;
+  padding-bottom: 50px;
+}
+
+
+
+}
+/* Pricing */
+#pricing{
+  padding-top: 200px;
+  padding:2%;
+
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+@media (max-width:1028px)  {
+  .title{
+    text-align: center;
+  }
+
+  .title_image{
+    position: static;
+    transform:rotate(0);
+  }
+}
+
+
+/* Footer */
+#footer{
+  padding: 6%;
+    background-color: #3E065F;
+    color: white;
+}
+
+.font-awes{
+  padding:20px 11px ;
+}
+.hospital-text{
+  font-size: 2rem;
+  text-align: left;
+}
+
+.search-bar{
+  justify-content: center;
+}
+#search-input{
+  height: 30px;
+  width: 400px;
+}
+body {
+    background-color: #eee;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+}
+
+.height {
+    height: 100vh
+}
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search input {
+    height: 48px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 15px;
+    left: 16px;
+}
+
+.search button {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    height: 40px;
+    width: 110px;
+    background: blue
+}

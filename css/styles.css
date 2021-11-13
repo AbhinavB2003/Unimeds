@@ -1,0 +1,173 @@
+body{
+  text-align:center;
+}
+
+
+#title{
+  background-color: #3E065F;
+  color:#fff;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+}
+
+p{
+  font-size: 1.1rem;
+  color: #8f8f8f;
+}
+
+.title-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 10% 7%;
+}
+
+/* Navigation Panel */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+ .nav-item {
+   font-weight: normal;
+   padding: 0 16px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+  width: 100%;
+  right: 25%;
+  padding: 15px;
+  text-align: center;
+
+}
+/* address */
+#address{
+  padding:6%;
+}
+.address-col1{
+  text-align: right;
+}
+ .address-image{
+   width: 95%;
+ }
+
+.address-info{
+  font-size: 3rem;
+  padding-left: 60px;
+  padding:50px;
+  text-align: center;
+}
+
+.address-heading{
+  font-size: 3.5rem;
+  padding-bottom: 50px;
+}
+
+/* Testimonials-Section */
+.staff-heading{
+  font-size: 3rem;
+}
+
+
+#testimonials{
+  background-color:#3E065F;
+  color:#fff;
+  padding-top: 50px;
+
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width:60%;
+  border-radius:100%;
+  margin:20px;
+}
+
+/* Press */
+#press{
+  background-color: #3E065F;
+  padding-bottom:3%;
+
+}
+
+.press-image{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+/* Pricing */
+#pricing{
+  padding:100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+
+@media (max-width:1028px)  {
+  .title{
+    text-align: center;
+  }
+
+  .title_image{
+    position: static;
+    transform:rotate(0);
+  }
+}
+
+/* Call to Action */
+#cta{
+  background-color:#3E065F;
+  padding-left: 15%;
+  padding-right:15%;
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+
+.cta-heading{
+  font-size: 3.5rem;
+  color:#fff;
+  padding-bottom: 50px;
+}
+
+/* Footer */
+#footer{
+  padding: 6%;
+}
+
+.font-awes{
+  padding:20px 11px ;
+}
